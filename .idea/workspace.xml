@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38d08725-2853-48be-8aee-efb6e3f2b087" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/snakebitegame/Sound.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/snakebitegame/Sounds/eating-sound.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/snakebitegame/Sounds/game-over.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/snakebitegame/Sounds/game-running.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/snakebitegame/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/snakebitegame/GamePanel.java" afterDir="false" />
-    </list>
+    <list default="true" id="38d08725-2853-48be-8aee-efb6e3f2b087" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
