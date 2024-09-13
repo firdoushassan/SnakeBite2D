@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38d08725-2853-48be-8aee-efb6e3f2b087" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SnakeBite2D.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/snakebitegame/GamePanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/snakebitegame/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/snakebitegame/Snake Images/GameOver.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/snakebitegame/Snake Images/GameStart.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/snakebitegame/Snake Images/downmouth.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/snakebitegame/Snake Images/frog.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/snakebitegame/Snake Images/leftmouth.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/snakebitegame/Snake Images/rightmouth.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/snakebitegame/Snake Images/snakebody.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/snakebitegame/Snake Images/snaketitle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/snakebitegame/Snake Images/upmouth.png" afterDir="false" />
-    </list>
+    <list default="true" id="38d08725-2853-48be-8aee-efb6e3f2b087" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
