@@ -15,10 +15,10 @@ To run this project, you'll need to have the following installed:
 
 ## Installation
 1. **Clone the repository:**
-   git clone https://github.com/yourusername/snake-game.git
+   git clone https://github.com/firdoushassan/SnakeBite2D
 
 2. **Navigate to the project directory:**
-   cd snake-game
+   cd SnakeBite2D
 
 3. **Compile the Java files:**
    You can compile the game using the terminal or your IDE. For example, in the terminal:
