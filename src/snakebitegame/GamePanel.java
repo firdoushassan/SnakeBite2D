@@ -9,7 +9,10 @@ import java.awt.event.KeyListener;
 import java.util.Objects;
 import java.util.Random;
 
+
 public class GamePanel extends JPanel implements ActionListener, KeyListener {
+
+    Sound sound = new Sound();
 
     //Snake Variables
     private int[] snakexlength = new int[750];
@@ -118,13 +121,13 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
             g.drawString("S C O R E  :  " +score, 365,265);
         }
 
+        //Starting Screen
         if(gameStart){
             GameStart.paintIcon(this, g, 25, 11);
         }
 
 
         g.dispose();
-
     }
 
     @Override
@@ -197,6 +200,7 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
         while(gameOver){
             if(e.getKeyCode() == KeyEvent.VK_SPACE){
                 timer.stop();
+                playMusic(1);
                 restart();
             }
         }
@@ -204,6 +208,7 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
             if(e.getKeyCode() == KeyEvent.VK_ENTER){
                 gameStart=false;
                 timer.start();
+                playMusic(1);
             }
         }
     }
@@ -232,6 +237,7 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
     //Logic after eating the frog
     private void eatFrog() {
         if(snakexlength[0] == frogX && snakeylength[0] == frogY){
+            playSE(3);
             newFrog();
             lengthOfsnake ++;
             score ++;
@@ -246,6 +252,8 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
     private void eatItself(){
         for(int i = lengthOfsnake-1;i>0;i--){
             if(snakexlength[i] == snakexlength[0] && snakeylength[i] == snakeylength[0]){
+                stopMusic();
+                playSE(2);
                 timer.stop();
                 gameOver = true;
             }
@@ -266,6 +274,20 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
         timer.setDelay(delay);
         repaint();
         newFrog();
+    }
+
+    //Game Music initialization
+    public void playMusic(int i){
+        sound.setFile(i);
+        sound.play();
+        sound.loop();
+    }
+    public void stopMusic(){
+        sound.stop();
+    }
+    public void playSE(int i){
+        sound.setFile(i);
+        sound.play();
     }
 
 
