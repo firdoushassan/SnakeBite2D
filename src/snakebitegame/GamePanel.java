@@ -17,7 +17,7 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
     //Snake Variables
     private int[] snakexlength = new int[750];
     private int[] snakeylength = new int[750];
-    private int lengthOfsnake = 15;
+    private int lengthOfsnake = 1;
     private boolean right = true;
     private boolean left = false;
     private boolean up = false;
@@ -264,7 +264,7 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
         gameOver = false;
         moves = 0;
         score = 0;
-        lengthOfsnake = 15;
+        lengthOfsnake = 1;
         left = false;
         right = true;
         up = false;
